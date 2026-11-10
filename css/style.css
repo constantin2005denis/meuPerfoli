@@ -1,0 +1,112 @@
+body {
+	background-image: url('../images/aguacates_seamless_suave.gif');
+
+	margin: 0;
+}
+
+/* Estils del menú */
+nav ul {
+	margin: 0;
+	list-style: none;
+	background-color: rgb(40, 27, 27);
+	overflow: hidden;
+}
+
+nav ul li {
+	margin: 20px;
+	float: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+/* Estils del footer */
+
+footer {
+	padding: 20px;
+	background-color: rgb(40, 27, 27);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+p {
+	width: 400px;
+}
+h1, h2, h3, p { margin: 20p; color: rgb(77, 1, 124);}
+h2 { margin: 20px; color: rgb(91, 67, 111);}
+h4 { margin: 25px; color: rgb(147, 61, 196);}
+p { margin: 27px; color: rgb(44, 4, 75);}
+
+
+img {
+	width:90px; height: 125px;
+    border-radius: 25px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 20px 3px #000000;
+    margin: 10px;
+}
+
+li {
+	list-style-type: none;
+	background-color: rgb(93, 65, 80);
+	overflow: hidden;
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 2px 26px;
+}
+
+.contingut-principal {
+	margin: 10px;
+	color: #333333;
+	width: 800px;
+}
+
+.img-principal {
+	margin-right: 20px;
+	border-radius: 15px;
+	border: 5px solid rgb(0, 0, 0);
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img-secundaria {
+	border-radius: 15px;
+	border: 5px solid rgb(0, 0, 0);
+	width: 100px;
+}
+
+
+.contenedor-tarjetas {
+  display: flex;
+  padding: 20px;
+}
+
+.tarjeta-texto {
+   margin: 10px;
+   background-color: rgb(215, 213, 213);
+  
+  width:330px; height: 120px;
+  
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid #b5b5b5;
+  box-shadow: 3px 3px 20px 3px #000000;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+
+.Seguretat { background-color: #c2e0c6; }
+.Projecte { background-color: #b3d9ff; }
+.Tutoria { background-color: #fff2b3; }
+.Optatiu { background-color: #f7c6d9; }
+.blanco { background-color: #fffdfe; }
