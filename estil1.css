@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #00ffb7;
+    width: 100%;
+    text-align: center;
+    padding: 3em 1em;
+    margin: 0;
+}
+nav {
+    background-color: #ff8000;
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 1.5em;
+    margin: 0%;
+}
+
+nav ul li {
+    margin-right: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+main {
+    width: 75%;
+    padding: 1em;
+    margin: 0;
+}
+
+aside {
+    flex: 1;
+    background-color: #00d0ff;
+    padding:1em;
+    margin: 0;
+}
+
+footer {
+    background-color: #e97db1;
+    width: 100%;
+    
+    padding: 1em;
+    margin: 0%;
+}
+
+.presentacio{
+    width:600px; height: 300px; }
+
+.maps{
+    width:250px; height: 250px; }
+
+.video{
+    width:600px; height: 300px; }
+
+.zinkers{
+    width:900px; height: 600px; }
+
+.qr-code {
+    width:250px; height: 250px; }
+.aemet{
+    width:250px; height: 299px; }
+
+.clocklink {
+    width: 250px; height: 250px; 
+    border: 0; display: block; }
+.widget-moon {
+    width:250px; height: 335px; 
+    border: 0; display: block; }
+
+.counter6 {
+    width:171px; height: 30px;
+    border: 0; display: block; }
+
+.forms {
+    width:600px; height: 1730px; }
+.canva {
+    width:600px; height: 1500px; }
+
+
+.descarrega::before {
+  content: "📥 " / "";
+}
+
+
+.desplegable { position: relative; }
+.desplegable ul { display: none; position: absolute; background-color: #ff8000; white-space: nowrap; }
+.desplegable:hover ul { display: block; }
+nav ul li, a {
+margin-right: 3%;
+text-decoration: none;
+color: black;
+font-weight: bold;
+white-space: nowrap; }
+
+
+ 
+table, th, td {
+    border: 1px solid gray;
+}
+ 
+th, td {
+    padding: 6px;
+    text-align: left;
+}
