@@ -110,3 +110,37 @@ table, th, td {
 .Tutoria { background-color: #fff2b3; }
 .Optatiu { background-color: #f7c6d9; }
 .blanco { background-color: #fffdfe; }
+
+
+.form-contacte {
+    border: 2px solid #222;
+    border-radius: 10px;
+    padding: 30px;
+}
+.form-contacte label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.form-contacte input,
+.form-contacte textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.form-contacte textarea {
+    height: 130px;
+}
+.form-contacte button {
+    background-color: #00250b;
+    color: rgb(133, 177, 0);
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
