@@ -1,0 +1,53 @@
+.form-contacte {
+    border: none;
+    padding: 0;
+}
+
+.form-contacte fieldset {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.form-contacte legend {
+    font-weight: bold;
+}
+
+.form-contacte select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form-contacte input:valid {
+    border-color: green;
+}
+
+.form-contacte input:invalid {
+    border-color: red;
+}
+
+.form-contacte fieldset fieldset label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.form-contacte input[type="checkbox"],
+.form-contacte input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+.botons {
+    text-align: right;
+}
+
+.form-contacte button[type="reset"] {
+    background-color: white;
+    color: #00250b;
+    border: 2px solid #00250b;
+    margin-right: 10px;
+}
